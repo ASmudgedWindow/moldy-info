@@ -217,7 +217,7 @@ body::after {
   position: relative;
   font-size: clamp(2.4rem, 6vw, 4.2rem);
   font-weight: 500;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.007em;
   background: linear-gradient(100deg, #eaf1ff 0%, var(--accent) 40%, var(--accent-2) 70%, #ffb8ea 100%);
   background-size: 220% auto;
   background-position: 0% center;
@@ -227,6 +227,11 @@ body::after {
   filter: drop-shadow(0 0 0px transparent);
   transition: filter 0.5s ease;
   animation: gradient-drift 11s ease-out infinite;
+}
+
+.txt {
+  font-weight: 500;
+  background: linear-gradient(180deg, #f4f6fd 50%, #ebeafc 50%,)
 }
 
 .title::before {
