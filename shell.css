@@ -215,11 +215,11 @@ body::after {
 
 .head2 {
   position: relative;
-  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  font-size: clamp(1.8rem, 6vw, 3.1rem);
   font-weight: 500;
-  letter-spacing: 0.007em;
+  letter-spacing: 0.005em;
   background: linear-gradient(100deg, #eaf1ff 0%, var(--accent) 40%, var(--accent-2) 70%, #ffb8ea 100%);
-  background-size: 220% auto;
+  background-size: 150% auto;
   background-position: 0% center;
   -webkit-background-clip: text;
   background-clip: text;
