@@ -230,9 +230,10 @@ body::after {
 }
 
 .txt {
-  font-weight: 500;
-  background: linear-gradient(180deg, #f4f6fd 50%, #ebeafc 50%,)
-  font-size: 90rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--ink);
+  letter-spacing: 0.02em;
 }
 
 .title::before {
